@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+.container{
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-bottom: 1px solid white;
+    height: 100px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    padding: 15px;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+   /* column-gap: 80px; */
+}
+
+li a{
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+li a:hover{
+    transition: all .25s ease;
+    color: aqua;
+}
+
+.menu{
+    display: flex;
+    
+}
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 55px;
+}
+
+.main-button{
+    margin-top: 50px;
+}
+
+.main-button a{
+    margin: 100px 30px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 15px 60px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.main-button a:hover{
+    transition: all .25s ease;
+    color:white;
+    background-color: aqua;
+}
+
+#Youtube-Button{
+    background-color: rgb(255, 255, 255, 0.08);
+    color: aqua;
+    padding: 12px 24px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+#Youtube-Button:hover{
+    transition: all .25s ease;
+    color:white;
+    background-color: aqua;
+}
